@@ -10,10 +10,9 @@ import sliderStory from './Slider.story';
 import barChartStory from './BarChart.story';
 import sankeyStory from './Sankey.story';
 import headerStory from './Header.story';
-import leafletMap from './LeafletMap.story';
 import Welcome from './Welcome';
 import rechartsPie from './RechartsPie.story';
-import reactLeafletStory from './ReactLeaflet';
+import LeafletStories from './Leaflet';
 
 import '../src/global.styles.css';
 
@@ -35,5 +34,4 @@ barChartStory();
 sankeyStory();
 sliderStory();
 rechartsPie();
-leafletMap();
-reactLeafletStory();
+LeafletStories();
